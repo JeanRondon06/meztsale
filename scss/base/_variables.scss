@@ -2,3 +2,33 @@
 $color-principal:rgb(50, 33, 77);
 $color-secundario:white;
 $color-navegador: rgb(66, 15, 62);
+
+
+//! Listas
+$colores:
+darkgray
+blueviolet
+black;
+
+
+
+//!MAPAS 
+
+$button: (
+    fondo-boton:black,
+    bordes-boton : 2px solid green,
+    color-texto: white,
+);
+.btn{
+    background-color: map-get($button, fondo-boton);
+    border: map-get($button , bordes-boton );
+};
+
+
+//!EXTENDS
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -273,9 +273,7 @@ section{
         .mb-3{
             .Logo{
                 h2{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @extend %flex;
                     background-image: url(../img/dony.png);
                     background-position: center;
                     width: 200px;

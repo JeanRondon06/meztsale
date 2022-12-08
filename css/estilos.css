@@ -4,7 +4,25 @@
   box-sizing: border-box; }
 
 /*VARIABLES*/
+.btn {
+  background-color: black;
+  border: 2px solid green; }
+
+.registro form .mb-3 .Logo h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /*VARIABLES*/
+.btn {
+  background-color: black;
+  border: 2px solid green; }
+
+.registro form .mb-3 .Logo h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .cabezera {
   display: flex;
   justify-content: space-between;
@@ -55,6 +73,15 @@
                 color: #6e4bc0; }
 
 /*VARIABLES*/
+.btn {
+  background-color: black;
+  border: 2px solid green; }
+
+.registro form .mb-3 .Logo h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 main section .temporadaTitulo {
   display: flex;
   text-align: center;
@@ -282,9 +309,6 @@ main section .tePuedeGustar {
     background: #745d7e;
     background: radial-gradient(circle, rgba(116, 93, 126, 0.459) 0%, rgba(255, 255, 255, 0.787553) 100%); }
     .registro form .mb-3 .Logo h2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       background-image: url(../img/dony.png);
       background-position: center;
       width: 200px;
@@ -309,6 +333,15 @@ main section .tePuedeGustar {
       color: black; }
 
 /*VARIABLES*/
+.btn {
+  background-color: black;
+  border: 2px solid green; }
+
+.registro form .mb-3 .Logo h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .contenedorFooter {
   background-color: #23262b;
   display: flex;
