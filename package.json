@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JeanRondon06/jeanpirf.git"
+    "url": "git+https://github.com/JeanRondon06/meztsale.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JeanRondon06/meztsale/issues"
   },
-  "homepage": "https://github.com/JeanRondon06/jeanpirf#readme",
+  "homepage": "https://github.com/JeanRondon06/meztsale#readme",
   "devDependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
