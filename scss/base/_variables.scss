@@ -32,3 +32,22 @@ $button: (
     justify-content: center;
     align-items: center;
 }
+
+
+//! MIXINS
+
+// @Mmixin flex{
+// display: flex;
+// justify-content: center;
+// align-items: center;
+// }
+
+@mixin flex ($flex, $justify, $direction){
+display: $flex;
+justify-content: $justify;
+flex-direction: $align;
+};
+
+
+
+

@@ -8,7 +8,7 @@
   background-color: black;
   border: 2px solid green; }
 
-.registro form .mb-3 .Logo h2 {
+main section .temporadaTitulo, main section .liquidacionTitulo, main section .tePuedeGustarTitulo, .sobreNosotros .nosotrosTitulo, .sobreNosotros .nosotrosParrafo, .registro, .registro form .mb-3 .Logo h2 {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -18,7 +18,7 @@
   background-color: black;
   border: 2px solid green; }
 
-.registro form .mb-3 .Logo h2 {
+main section .temporadaTitulo, main section .liquidacionTitulo, main section .tePuedeGustarTitulo, .sobreNosotros .nosotrosTitulo, .sobreNosotros .nosotrosParrafo, .registro, .registro form .mb-3 .Logo h2 {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -77,15 +77,12 @@
   background-color: black;
   border: 2px solid green; }
 
-.registro form .mb-3 .Logo h2 {
+main section .temporadaTitulo, main section .liquidacionTitulo, main section .tePuedeGustarTitulo, .sobreNosotros .nosotrosTitulo, .sobreNosotros .nosotrosParrafo, .registro, .registro form .mb-3 .Logo h2 {
   display: flex;
   justify-content: center;
   align-items: center; }
 
 main section .temporadaTitulo {
-  display: flex;
-  text-align: center;
-  justify-content: center;
   background-color: rgba(3, 3, 3, 0.541);
   color: #32214d;
   padding: 10px; }
@@ -126,9 +123,6 @@ main section .temporadaVerano {
         color: blueviolet; }
 
 main section .liquidacionTitulo {
-  display: flex;
-  text-align: center;
-  justify-content: center;
   background-color: rgba(3, 3, 3, 0.541);
   color: #32214d;
   padding: 10px; }
@@ -162,16 +156,12 @@ main section .liquidacion {
       padding: 5px;
       text-align: center;
       justify-content: center;
-      text-align: center;
       background-color: #ac499e;
       color: white; }
       main section .liquidacion .liquidacionComprar a:hover {
         color: blueviolet; }
 
 main section .tePuedeGustarTitulo {
-  display: flex;
-  text-align: center;
-  justify-content: center;
   background-color: rgba(3, 3, 3, 0.541);
   color: #32214d;
   padding: 10px; }
@@ -207,7 +197,6 @@ main section .tePuedeGustar {
       padding: 5px;
       text-align: center;
       justify-content: center;
-      text-align: center;
       background-color: #ac499e;
       color: white; }
       main section .tePuedeGustar .tePuedeGustarComprar a:hover {
@@ -250,7 +239,6 @@ main section .tePuedeGustar {
       padding: 5px;
       text-align: center;
       justify-content: center;
-      text-align: center;
       background-color: #ac499e;
       color: white; }
       .ropa .ropaGaleria a:hover {
@@ -259,16 +247,10 @@ main section .tePuedeGustar {
 .sobreNosotros {
   display: flex; }
   .sobreNosotros .nosotrosTitulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center; }
     .sobreNosotros .nosotrosTitulo h3 {
       font-size: 22px; }
   .sobreNosotros .nosotrosParrafo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     font-size: 18px; }
     .sobreNosotros .nosotrosParrafo p {
@@ -292,9 +274,6 @@ main section .tePuedeGustar {
 .registro {
   width: 100%;
   height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: #dbc6e4;
   background: #3d1a4d;
   background: radial-gradient(circle, rgba(114, 82, 129, 0.5) 0%, rgba(26, 5, 34, 0.788) 100%); }
@@ -337,7 +316,7 @@ main section .tePuedeGustar {
   background-color: black;
   border: 2px solid green; }
 
-.registro form .mb-3 .Logo h2 {
+main section .temporadaTitulo, main section .liquidacionTitulo, main section .tePuedeGustarTitulo, .sobreNosotros .nosotrosTitulo, .sobreNosotros .nosotrosParrafo, .registro, .registro form .mb-3 .Logo h2 {
   display: flex;
   justify-content: center;
   align-items: center; }
