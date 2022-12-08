@@ -1,0 +1,313 @@
+@import "../base/variables";
+main{
+section{
+    .temporadaTitulo{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: rgba(3, 3, 3, 0.541);
+        color: $color-principal;
+        padding: 10px;
+    }
+    .temporadaVerano{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: wrap ;
+        justify-content: space-around;
+        .temporadaVeranoComprar{
+            border:1px solid black ;
+            display: inline-block;
+            margin: 12px;
+            width: 300px;
+            box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);  
+            img{
+                width: 298px;
+                height: 300px;
+            }
+            h3{
+                font-size: 16px;
+                text-align: center;
+                color: rgb(0, 0, 0);
+            }
+            a{
+                display: flex;
+                margin: 12px;
+                border:  1px solid black;
+                text-decoration: none;
+                padding: 5px;
+                text-align: center;
+                justify-content: center;
+                text-align: center;
+                background-color: rgb(172, 73, 158);
+                color: rgb(255, 255, 255);
+                &:hover{
+                    color: blueviolet;
+                }
+            }
+        }
+
+    }
+}
+section{
+    .liquidacionTitulo{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: rgba(3, 3, 3, 0.541);
+        color: $color-principal;
+        padding: 10px;
+    }
+        .liquidacion{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: wrap ;
+            justify-content: space-around;
+            .liquidacionComprar{
+                border:1px solid black ;
+                display: inline-block;
+                margin: 12px;
+                width: 300px;
+                box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);  
+                img{
+                    width: 298px;
+                    height: 300px;          
+                }
+                h3{
+                    text-align: center;
+                    color: rgb(0, 0, 0);
+                    font-size: 16px;
+                }
+                a{
+                    display: flex;
+                    margin: 12px;
+                    border:  1px solid black;
+                    text-decoration: none;
+                    padding: 5px;
+                    text-align: center;
+                    justify-content: center;
+                    text-align: center;
+                    background-color: rgb(172, 73, 158);
+                    color: rgb(255, 255, 255);
+                    &:hover{
+                        color: blueviolet;
+                        }                
+                }
+            }
+
+        }
+    
+}
+section{
+    .tePuedeGustarTitulo{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: rgba(3, 3, 3, 0.541);
+        color: $color-principal;
+        padding: 10px;
+
+    }
+    .tePuedeGustar{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: wrap ;
+        justify-content: space-around;
+        .tePuedeGustarComprar{
+            border:1px solid black ;
+            display: inline-block;
+            margin: 12px;
+            width: 300px;
+            box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+            img{
+                width: 298px;
+                height: 300px; 
+            }
+            h3{
+                text-align: center;
+                color: rgb(0, 0, 0);
+                font-size: 16px;
+                b{
+                    color: black;
+                }
+            }
+            a{
+                display: flex;
+                margin: 12px;
+                border:  1px solid black;
+                text-decoration: none;
+                padding: 5px;
+                text-align: center;
+                justify-content: center;
+                text-align: center;
+                background-color: rgb(172, 73, 158);
+                color: rgb(255, 255, 255);
+                &:hover{
+                    color: blueviolet;
+                    }  
+            }
+        }
+    }
+}
+}
+.ropa{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap ;
+    justify-content: space-around;
+    .ropaTitulo{
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.541);
+        color: rgb(50, 33, 77);
+        padding: 10px;
+        font-size: 28px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .ropaGaleria{
+        margin: 12px;
+        width: 300px;
+        box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75);
+        border:1px solid black ;
+        display: inline-block;  
+    
+        img{
+            width: 298px;
+            height: 300px;
+        }
+        h3{
+            font-size: 16px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+        a{
+            display: flex;
+            margin: 12px;
+            border:  1px solid black;
+            text-decoration: none;
+            padding: 5px;
+            text-align: center;
+            justify-content: center;
+            text-align: center;
+            background-color: rgb(172, 73, 158);
+            color: rgb(255, 255, 255);
+            &:hover {
+                color: blueviolet;
+            }
+        }
+    }
+}
+.sobreNosotros{
+    display: flex;
+   .nosotrosTitulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    h3{
+        font-size: 22px;
+    }
+    }
+    .nosotrosParrafo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+        p{
+            color: black;
+        }
+    }
+    .nosotrosTienda{
+        display: flex;
+        justify-content: flex-end;
+        img{
+            display: flex;
+            height: auto;
+            align-items: center;
+        }
+    }
+
+}
+.seccionUbicacion{
+    margin: 10px;
+    .ubicacion{
+        h3{
+            font-size: 22px;  
+        }
+        iframe{
+            width: 95%;
+            padding: 40px;
+        }
+    }
+}
+.registro{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(219,198,228);background: rgb(61,26,77);
+    background: radial-gradient(circle, rgba(114, 82, 129, 0.5) 0%, rgba(26, 5, 34, 0.788) 100%);
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px ; 
+        height: 60vh;
+        padding: 140px;
+        background: rgba(36, 113, 143, 0.301);background: rgb(116,93,126);
+        background: radial-gradient(circle, rgba(116, 93, 126, 0.459) 0%, rgba(255,255,255,0.7875525210084033) 100%);
+
+        .mb-3{
+            .Logo{
+                h2{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: url(../img/dony.png);
+                    background-position: center;
+                    width: 200px;
+                    height: 80px;
+                    color: white;
+                }
+            }
+        }
+        .form-label{
+            color: rgb(255, 255, 255);
+            text-align: center;
+            margin-top: 10px;
+            padding: 0px;
+        }
+        .form-control{
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            margin-top: 10px;
+            margin-left: 15px ;
+            width: 90%;
+            width: 90%;
+        }
+        .mb-3{
+            a{
+                margin-top: 5px;
+                color: rgb(5, 1, 1);
+            }
+        .btn{
+            color: black;
+
+            }
+        }    
+        }
+    }
+    

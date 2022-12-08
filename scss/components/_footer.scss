@@ -1,0 +1,70 @@
+@import "../base/variables";
+.contenedorFooter{
+    background-color: #23262b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .contenedorFooterPago{
+        h4{ 
+            font-size: 18px;
+            color: $color-secundario;
+            text-decoration: none;
+        }
+        .pagoimg{
+
+            img{
+                width: 170px;
+                padding: 10px;
+            }
+        }
+    }
+    .contenedorFooterRedSocial{
+        h4{
+            font-size: 18px;
+            color: $color-secundario;
+            text-decoration: none;
+        }
+        .redSocial{
+            a{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 4px;
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    color: black;
+                }
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin: 4px;
+                }
+            }
+        }
+    }
+    .contenedorFooterDireccion{
+        h4{
+            font-size: 18px;
+            color: $color-secundario;
+            text-decoration: none;
+        }
+        h5{
+            font-size: 14px;
+            color: $color-secundario;
+        }
+    }
+    .contenedorFooterTerminos{
+        a{
+            text-decoration: none;
+            h4{
+                font-size: 18px;
+                color: $color-secundario;
+                text-decoration: none;
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}

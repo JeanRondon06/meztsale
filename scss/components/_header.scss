@@ -1,0 +1,64 @@
+@import "../base/variables";
+.cabezera {
+    display: flex;
+    justify-content: space-between;
+    margin:0px;
+    height: 70px;
+    align-items: center;
+    position: sticky;
+
+    .titulo{
+        display: flex;
+        align-items: center;
+        align-self: center;
+        width: 104px;
+        height: auto;
+        a{
+            text-decoration: none;
+           h1{
+            color: rgb(255, 255, 255);
+            background-image: url(../img/dony.png);
+            background-position: center;
+            background-size: 300px;
+            text-align: center;
+            font-size: 28px;
+            width: 160px;
+            height: 77px;
+            display: flex;
+            align-items: center;
+           } 
+        }
+    }
+
+    .navegador{
+            text-decoration: none;
+        nav{
+            text-decoration: none;
+            ul{  
+                display: flex;
+                flex-direction: row;
+                text-decoration: none;
+                li{
+                    display: flex;  
+                    text-decoration: none;     
+                    a{
+                        text-decoration: none;
+                        margin: 0px;
+                        padding: 8px;
+                        b{ 
+                            color: $color-navegador;
+                            align-items: center; 
+                            text-decoration: none;        
+                            &:hover{
+                                transition: 0.5s;
+                                color: rgb(110, 75, 192);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+     
+      
+}
