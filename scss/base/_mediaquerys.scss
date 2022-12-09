@@ -79,9 +79,11 @@
         align-items: center;
 
     }
-    .nosotrosTienda {
+    .nosotrosTienda img{
         margin-top: 100px;
         width: 70vh;
+        padding-right: 5px;
+        padding: 5px;
     }
     .registro form {
        width: 375PX ; 
@@ -111,11 +113,32 @@
         justify-content: space-between;
     }
 }
-@media screen and (min-width:375px){
+@media screen and (max-width:475px){
     .cabezera{
         display: flex;
         flex-direction: column;
-        height: 150px;
+        height: 284px;
+        display: flex;
+        flex-direction: column;
+        background-color: darkgray;
+    }
+    .cabezera .titulo a h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        &:hover{
+            color: white;
+            transition: all ;
+        }
+    }
+    .cabezera .navegador nav ul li a b{
+        font-size: 15px;
+        padding: 0;
+        margin: 0px;
+    }
+    .cabezera .navegador nav ul{
+        display: flex;
+        flex-direction: column;
     }
     .contenedorFooter{
         display: flex;
@@ -157,6 +180,22 @@
     .contenedorFooterTerminos a{
         display: flex;
         justify-content: center;
+    }
+    .sobreNosotros{
+        display: grid;
+        flex-direction: column;
+    }
+    .sobreNosotros  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nosotrosTienda img{
+        margin-top: 100px;
+        width: 70vh;
+        margin: 5px;
+        padding-right: 5px;
     }
 }
 @media screen and (max-width:768px){
