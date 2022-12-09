@@ -367,10 +367,20 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
       .contenedorFooter .contenedorFooterTerminos a h4:hover {
         color: black; }
 
+/*VARIABLES*/
+.btn {
+  background-color: black;
+  border: 2px solid green; }
+
+main section .temporadaTitulo, main section .liquidacionTitulo, main section .tePuedeGustarTitulo, .sobreNosotros .nosotrosTitulo, .sobreNosotros .nosotrosParrafo, .registro, .registro form .mb-3 .Logo h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 @media screen and (max-width: 375px) {
   .cabezera {
     width: 375px;
-    height: 300px;
+    height: 284px;
     display: flex;
     flex-direction: column;
     background-color: darkgray; }
@@ -396,8 +406,12 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 375px;
     height: 40px; }
+  .liquidacionTitulo {
+    width: 375px; }
+  .tePuedeGustarTitulo {
+    width: 375px; }
   .contenedorFooterPago {
     text-align: center; }
   .contenedorFooterRedSocial {
@@ -417,25 +431,26 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
   .sobreNosotros {
     display: grid;
     flex-direction: column; }
-  .nosotros {
-    display: flex; }
+  .sobreNosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .nosotrosTienda {
-    margin-top: 140px; }
+    margin-top: 100px;
+    width: 70vh; }
   .registro form {
     width: 100%;
     height: 80vh;
-    padding: 10px;
+    padding: 8px;
     background: #24708f;
     background: radial-gradient(circle, #745d7e 0%, rgba(255, 255, 255, 0.787553) 100%); }
   .Logo h2 {
     text-align: center;
-    margin: 40px auto; }
+    margin: 20px auto; }
   .registro label {
     color: #300c41;
     font-size: 18px;
     font-style: inherit; }
-  .ropa .ropaTitulo {
-    margin-top: 120px; }
   .ropaTitulo {
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
