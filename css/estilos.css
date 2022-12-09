@@ -279,8 +279,9 @@ main section .tePuedeGustar {
   background: radial-gradient(circle, rgba(114, 82, 129, 0.5) 0%, rgba(26, 5, 34, 0.788) 100%); }
   .registro form {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    border: solid 2px white;
     width: 500px;
     height: 60vh;
     padding: 140px;
