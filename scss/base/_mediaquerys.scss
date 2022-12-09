@@ -84,8 +84,8 @@
         width: 70vh;
     }
     .registro form {
-       width: 100% ; 
-       height: 80vh;
+       width: 375PX ; 
+       height: 100%;
        padding: 8px;
        background: rgb(36,112,143);
        background: radial-gradient(circle, rgba(116,93,126,1) 0%, rgba(255,255,255,0.7875525210084033) 100%);
@@ -110,4 +110,55 @@
         flex-direction: column;
         justify-content: space-between;
     }
+}
+@media screen and (min-width:375px){
+    .cabezera{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+    .contenedorFooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .temporadaTitulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+    }
+    .liquidacionTitulo{
+        width: 100%;
+    }
+    .tePuedeGustarTitulo{
+        width: 100%;
+    }
+    .contenedorFooterPago {
+        text-align: center;
+    }
+    .contenedorFooterRedSocial{
+        
+        text-align: center;
+    }
+    .contenedorFooterRedSocial a img{
+        display: flex;
+        align-items: center;
+    }
+    .contenedorFooterRedSocial a {
+        display: flex;
+        justify-content: center;
+    }
+    .contenedorFooterDireccion{
+        text-align: center;
+        padding: 15px;
+    }
+    .contenedorFooterTerminos a{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:768px){
+
 }
