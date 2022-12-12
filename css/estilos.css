@@ -440,12 +440,16 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
     width: 70vh;
     padding-right: 5px;
     padding: 5px; }
+  .registro {
+    padding: 0;
+    width: 375px;
+    height: 100%; }
   .registro form {
-    width: 375PX;
     height: 100%;
-    padding: 8px;
+    padding: 100px;
+    border: none;
     background: #24708f;
-    background: radial-gradient(circle, #745d7e 0%, rgba(255, 255, 255, 0.787553) 100%); }
+    background: radial-gradient(circle, #6b5275 0%, rgba(255, 255, 255, 0.787553) 100%); }
   .Logo h2 {
     text-align: center;
     margin: 20px auto; }

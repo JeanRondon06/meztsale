@@ -85,12 +85,17 @@
         padding-right: 5px;
         padding: 5px;
     }
-    .registro form {
-       width: 375PX ; 
-       height: 100%;
-       padding: 8px;
-       background: rgb(36,112,143);
-       background: radial-gradient(circle, rgba(116,93,126,1) 0%, rgba(255,255,255,0.7875525210084033) 100%);
+    .registro{
+        padding: 0;
+        width: 375px;
+        height: 100%;
+    }
+    .registro form { 
+        height: 100%;
+        padding: 100px;
+        border: none;
+        background: rgb(36,112,143);
+        background: radial-gradient(circle, rgb(107, 82, 117) 0%, rgba(255,255,255,0.7875525210084033) 100%);
     }
        .Logo h2{
         text-align: center;
@@ -112,7 +117,10 @@
         flex-direction: column;
         justify-content: space-between;
     }
+    
 }
+
+
 @media screen and (max-width:475px){
     .cabezera{
         display: flex;
@@ -199,5 +207,8 @@
     }
 }
 @media screen and (max-width:768px){
+
+
+
 
 }
