@@ -434,12 +434,18 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
   .sobreNosotros {
     display: flex;
     justify-content: center;
-    align-items: center; }
-  .nosotrosTienda img {
-    margin-top: 100px;
-    width: 70vh;
-    padding-right: 5px;
-    padding: 5px; }
+    align-items: center;
+    width: 375px; }
+  .sobreNosotros .nosotrosTienda {
+    width: 70vh; }
+  .seccionUbicacion {
+    padding: 0px;
+    width: 370px;
+    margin: 0px;
+    padding: 0px; }
+  .seccionUbicacion .ubicacion iframe {
+    width: 340px;
+    padding: 0px; }
   .registro {
     padding: 0;
     width: 375px;
@@ -528,5 +534,4 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
   .nosotrosTienda img {
     margin-top: 100px;
     width: 70vh;
-    margin: 5px;
-    padding-right: 5px; } }
+    margin: 5px; } }
