@@ -246,9 +246,7 @@ section{
     background: rgb(219,198,228);background: rgb(61,26,77);
     background: radial-gradient(circle, rgba(114, 82, 129, 0.5) 0%, rgba(26, 5, 34, 0.788) 100%);
     form{
-        // display: flex;
-        //flex-direction: column;
-        // justify-content: center;
+        
          @include flex (flex, center, column);
          @include modos(black);
         width: 500px ; 
