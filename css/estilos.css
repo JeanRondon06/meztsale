@@ -402,7 +402,7 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
     display: flex;
     flex-direction: column;
     justify-content: center; }
-  .temporadaTitulo {
+  main section .temporadaTitulo {
     display: flex;
     justify-content: center;
     align-items: center;
