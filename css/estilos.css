@@ -465,6 +465,11 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
     display: flex;
     flex-direction: column;
     background-color: darkgray; }
+  .cabezera .titulo {
+    width: 100%;
+    background: url(/img/dony.png);
+    display: flex;
+    justify-content: center; }
   .cabezera .titulo a h1 {
     width: 100%;
     display: flex;
@@ -509,14 +514,11 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
   .contenedorFooterTerminos a {
     display: flex;
     justify-content: center; }
-  .sobreNosotros {
-    display: grid;
-    flex-direction: column; }
-  .sobreNosotros {
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .nosotrosTienda img {
-    margin-top: 100px;
-    width: 70vh;
-    margin: 5px; } }
+  .sobreNosotros .nosotrosTitulo {
+    width: 100%; }
+  .sobreNosotros .nosotrosTienda img {
+    width: 100%;
+    margin: 0; }
+  .seccionUbicacion .ubicacion iframe {
+    width: 100%;
+    padding: 0px; } }

@@ -129,6 +129,13 @@
         flex-direction: column;
         background-color: darkgray;
     }
+    .cabezera .titulo{
+        width: 100%;
+        background: url(/img/dony.png);
+        display: flex;
+        justify-content: center;
+        
+    }
     .cabezera .titulo a h1{
         width: 100%;
         display: flex;
@@ -188,20 +195,18 @@
         display: flex;
         justify-content: center;
     }
-    .sobreNosotros{
-        display: grid;
-        flex-direction: column;
+    .sobreNosotros .nosotrosTitulo {
+        width: 100%;
     }
-    .sobreNosotros  {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+    
+    .sobreNosotros .nosotrosTienda img{
+        width: 100%;
+        margin: 0;
     }
-    .nosotrosTienda img{
-        margin-top: 100px;
-        width: 70vh;
-        margin: 5px;
+    
+    .seccionUbicacion .ubicacion iframe{
+        width: 100%;
+        padding: 0px;
     }
 }
 @media screen and (max-width:768px){
