@@ -233,8 +233,87 @@
     }
 }
 @media screen and (max-width:768px){
+    .cabezera{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: darkgray;
+        
+    }
+    .cabezera .titulo{
+        width: 100%;
+        background: url(/img/dony.png);
+        display: flex;
+        justify-content: center;
+        
+    }
+    .cabezera .titulo a h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        &:hover{
+            color: white;
+            transition: all ;
+        }
+        
+    }
+    .cabezera .navegador nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cabezera .navegador nav ul li a b{
+        font-size: 13px;
+        padding: 0;
+        margin: 0px;
+    }
+    .registro {
+        width: 100% ;
+        padding: 0;
+    }
+    .registro form {
+        width: 90% ;
+        padding: 0;
+        border: none;
+    }
+    .registro .mb-3 .Logo {
+        display: flex;
+        justify-content: center;
+    }
 
+    .registro label{
+        color: rgb(148, 132, 155);
+        font-size: 18px;
+        font-style: inherit;
+    }
+    
+   .contenedorFooter .contenedorFooterPago h4{
+    font-size: 16px;
+   }
+   .contenedorFooter .contenedorFooterPago .pagoimg img{
+    width: 140px ;
+   }
+   .sobreNosotros{
+    display: grid;
+    grid-auto-columns: auto;
+}
+.contenedorFooter .contenedorFooterDireccion{
+    text-align: center;
+}
+.sobreNosotros .nosotrosTitulo {
+    width: 100%;
+}
 
+.sobreNosotros .nosotrosTienda img{
+    width: 100%;
+    margin: 0;
+}
+
+.seccionUbicacion .ubicacion iframe{
+    width: 100%;
+    padding: 0px;
+}
 
 
 }
