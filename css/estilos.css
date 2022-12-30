@@ -514,6 +514,9 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
   .contenedorFooterTerminos a {
     display: flex;
     justify-content: center; }
+  .sobreNosotros {
+    display: grid;
+    grid-auto-columns: auto; }
   .sobreNosotros .nosotrosTitulo {
     width: 100%; }
   .sobreNosotros .nosotrosTienda img {
@@ -521,4 +524,18 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
     margin: 0; }
   .seccionUbicacion .ubicacion iframe {
     width: 100%;
-    padding: 0px; } }
+    padding: 0px; }
+  .registro {
+    width: 100%;
+    padding: 0; }
+  .registro form {
+    width: 90%;
+    padding: 0;
+    border: none; }
+  .registro .mb-3 .Logo {
+    display: flex;
+    justify-content: center; }
+  .registro label {
+    color: #94849b;
+    font-size: 18px;
+    font-style: inherit; } }

@@ -43,16 +43,6 @@ justify-content: $justify;
 flex-direction: $direction;
 };
 
-//! CONDICIONALES
-
-// if(condicional){
-//    se ejecuta este codigo
-// }else{
-//    se 
-// }
-
-//* PARA SELECCIONAR DARKMODE O LIGHTMODE
-
 @mixin modos($darkmode){
     @if $darkmode == black{
         border: solid 2px white;

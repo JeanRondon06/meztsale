@@ -195,6 +195,10 @@
         display: flex;
         justify-content: center;
     }
+    .sobreNosotros{
+        display: grid;
+        grid-auto-columns: auto;
+    }
     .sobreNosotros .nosotrosTitulo {
         width: 100%;
     }
@@ -207,6 +211,25 @@
     .seccionUbicacion .ubicacion iframe{
         width: 100%;
         padding: 0px;
+    }
+    .registro {
+        width: 100% ;
+        padding: 0;
+    }
+    .registro form {
+        width: 90% ;
+        padding: 0;
+        border: none;
+    }
+    .registro .mb-3 .Logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .registro label{
+        color: rgb(148, 132, 155);
+        font-size: 18px;
+        font-style: inherit;
     }
 }
 @media screen and (max-width:768px){
