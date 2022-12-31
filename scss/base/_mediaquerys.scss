@@ -289,31 +289,50 @@
     }
     
    .contenedorFooter .contenedorFooterPago h4{
-    font-size: 16px;
+        font-size: 16px;
    }
    .contenedorFooter .contenedorFooterPago .pagoimg img{
-    width: 140px ;
+        width: 140px ;
    }
    .sobreNosotros{
-    display: grid;
-    grid-auto-columns: auto;
-}
-.contenedorFooter .contenedorFooterDireccion{
-    text-align: center;
-}
-.sobreNosotros .nosotrosTitulo {
-    width: 100%;
-}
+        display: grid;
+        grid-auto-columns: auto;
+    }
+    .contenedorFooter .contenedorFooterDireccion{
+        text-align: center;
+    }
+    .sobreNosotros .nosotrosTitulo {
+        width: 100%;
+    }
 
-.sobreNosotros .nosotrosTienda img{
-    width: 100%;
-    margin: 0;
+    .sobreNosotros .nosotrosTienda img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .seccionUbicacion .ubicacion iframe{
+        width: 100%;
+        padding: 0px;
+    }
+
+
 }
-
-.seccionUbicacion .ubicacion iframe{
-    width: 100%;
-    padding: 0px;
-}
-
-
+    @media screen and (max-width:1024px) {
+        .sobreNosotros{
+            display: grid;
+            grid-auto-columns: auto;
+        }
+        .sobreNosotros .nosotrosTitulo {
+            width: 100%;
+        }
+    
+        .sobreNosotros .nosotrosTienda img{
+            width: 100%;
+            margin: 0;
+        }
+    
+        .seccionUbicacion .ubicacion iframe{
+            width: 100%;
+            padding: 0px;
+        }
 }

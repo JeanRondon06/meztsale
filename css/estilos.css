@@ -598,3 +598,16 @@ main section .temporadaTitulo, main section .liquidacionTitulo, main section .te
   .seccionUbicacion .ubicacion iframe {
     width: 100%;
     padding: 0px; } }
+
+@media screen and (max-width: 1024px) {
+  .sobreNosotros {
+    display: grid;
+    grid-auto-columns: auto; }
+  .sobreNosotros .nosotrosTitulo {
+    width: 100%; }
+  .sobreNosotros .nosotrosTienda img {
+    width: 100%;
+    margin: 0; }
+  .seccionUbicacion .ubicacion iframe {
+    width: 100%;
+    padding: 0px; } }
